@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Uni</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      function checkPassword() {
+        var password = prompt("Bitte geben Sie das Passwort ein:");
+        if (password === "2000") {
+          window.location.href = "wdis.html";
+        } else {
+          alert("Falsches Passwort!");
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="hamburger" id="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#" class="active">Dolmetschen</a></li>
+          <li><a href="kont.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="profile">
+      <div class="profile-content">
+        <div class="text-info">
+          <h1>Dolmetschen</h1>
+          <p>
+            <p><h2>Über mich: </h2></p> 
+            <p><h3>Allgemein beeidigter Dolmetscher und ermächtigter
+            Übersetzer für Arabisch und Deutsch</h3></p>
+            
+            <p>Als allgemein beeidigter
+            Dolmetscher und ermächtigter Übersetzer biete ich professionelle
+            Dolmetsch- und Übersetzungsdienstleistungen für die arabische und
+            deutsche Sprache an. Mit langjähriger Erfahrung und umfassender
+            Fachkompetenz stehe ich Ihnen bei einer Vielzahl von Angelegenheiten
+            zur Seite – insbesondere im juristischen und notariellen Bereich.</p>
+
+
+            <p><h2>Meine Dienstleistungen</h2></p>
+            
+            <p><h3>Dolmetschen</h3></p>
+            
+            
+            <p>Ich unterstütze Sie bei wichtigen
+            Gesprächen und Verhandlungen, sei es in rechtlichen, geschäftlichen
+            oder privaten Kontexten. Mein Fokus liegt vor allem auf:</p>
+<br/>
+            <ul>
+
+              <li>Gerichtsdolmetschen</li>
+              <br/>
+              <li>Notariellen Angelegenheiten</li>
+              <br/>
+              <li>Behördlichen Terminen</li>
+              <br/>
+              <li>Verhandlungen und Verträgen</li>
+              
+              
+              
+
+            </ul>
+            <br/>
+            <p><h3>Übersetzungen</h3></p>
+            
+
+             <p>Als ermächtigter Übersetzer biete ich beglaubigte
+            Übersetzungen von offiziellen Dokumenten, die von Gerichten, Notaren
+            und Behörden anerkannt werden. Dazu gehören:</p>
+            <br/>
+            <ul>
+              <li>Verträge und Urkunden</li>
+              <br/>
+              <li>Gerichtsdokumente</li>
+              <br/>
+              <li>Notarielle Beurkundungen</li>
+              <br/>
+              <li>Zeugnisse und Bescheinigungen</li>
+              <br/>
+              <li>Korrespondenzen und weitere amtliche Schriftstücke</li>
+
+
+            </ul>
+            
+            <br/>
+            <p><h3>Warum ich?</h3></p> 
+            
+            <ul>
+
+              <li>Professionelle Expertise: Durch meine staatliche
+                Anerkennung und langjährige Erfahrung als Dolmetscher und Übersetzer
+                gewährleiste ich qualitativ hochwertige und präzise Arbeit.</li>
+                <br/>
+
+              <li>Professionelle Expertise: Durch meine staatliche
+                Anerkennung und langjährige Erfahrung als Dolmetscher und Übersetzer
+                gewährleiste ich qualitativ hochwertige und präzise Arbeit.</li>
+                <br/>
+
+              <li>Vertrauen und Verlässlichkeit: Vertrauliche und rechtlich relevante
+                Informationen werden von mir diskret und verantwortungsbewusst
+                behandelt. Fachliche Kompetenz: Mein Fachwissen im rechtlichen und
+                notariellen Bereich ermöglicht es mir, komplexe Inhalte präzise und
+                verständlich zu übermitteln.</li>
+            
+            
+
+          </ul>
+          </p>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Idris Wahib. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("nav-links");
+
+        hamburger.addEventListener("click", function () {
+          navLinks.classList.toggle("show");
+          hamburger.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>

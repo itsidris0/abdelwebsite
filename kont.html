@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="hamburger" id="hamburger">
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="dolm.html">Dolmetschen</a></li>
+          <li><a href="#" class="active">Kontakt</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="profile">
+      <div class="profile-content">
+        <div class="text-info">
+          <h1>Kontakt</h1>
+          <p>
+            Für weitere Informationen oder zur Terminvereinbarung erreichen Sie mich unter:
+          </p>
+          <p>Telefon: 0171-1893646</p>
+          <p>Email: abdelbaset_wahib@hotmial.com</p>
+          <div class="social-links">
+            <a href="mailto:abdelbaset_wahib@hotmail.com" target="_blank">
+              <img
+                src="https://img.icons8.com/?size=100&id=13754&format=png&color=000000"
+                alt="Mail"
+            /></a>
+
+
+            <a href="tel:01711893646" target="_blank">
+              <img
+                src="https://img.icons8.com/?size=100&id=60963&format=png&color=000000"
+                alt="Mail"
+            /></a>
+          </div>
+
+          
+            
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 Idris Wahib. All rights reserved.</p>
+    </footer>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.getElementById("hamburger");
+        const navLinks = document.getElementById("nav-links");
+
+        hamburger.addEventListener("click", function () {
+          navLinks.classList.toggle("show");
+          hamburger.classList.toggle("open");
+        });
+      });
+    </script>
+  </body>
+</html>
